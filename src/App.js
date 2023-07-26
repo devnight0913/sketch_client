@@ -13,6 +13,7 @@ import { store } from "./store";
 import "./App.css";
 
 const App = () => {
+  console.log(process.env.REACT_APP_API_URL);
   return (
     <Provider store={store}>
       <BrowserRouter>
